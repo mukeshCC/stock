@@ -1,9 +1,8 @@
-import streamlit as st, pandas as pd, numpy as np, yfinance as yf
+import streamlit as st, pandas as pd, numpy as np
 import matplotlib.pyplot as plt, plotly.express as px,plotly.graph_objects as go
 from nsepy import get_history,get_index_pe_history
 from nsetools import Nse
 from datetime import date
-from alpha_vantage.fundamentaldata import FundamentalData
 import requests
 from bs4 import BeautifulSoup
 
